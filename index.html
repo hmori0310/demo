@@ -163,90 +163,44 @@
 
       <div id="main-content" class="container mt-5 flex-grow-1">
         <div id="content-home" class="page">
-          <div class="text-center hero">
-            <img
-              class="mb-3 app-logo"
-              src="/images/logo.png"
-              alt="JavaScript logo"
-              width="75"
-            />
-            <h1 class="mb-4">JavaScript Sample Project</h1>
-
-            <p class="lead">
-              This is a sample application that demonstrates an authentication
-              flow for an SPA, using plain JavaScript
-            </p>
-          </div>
-
-          <div class="next-steps">
-            <h2 class="my-5 text-center">What can I do next?</h2>
-
-            <div class="row">
-              <div class="col-md-5 mb-4">
-                <h6 class="mb-3">
-                  <a href="https://auth0.com/docs/connections">
-                    <i class="fas fa-link"></i> Configure other identity
-                    providers
-                  </a>
-                </h6>
-                <p>
-                  Auth0 supports social providers as Facebook, Twitter,
-                  Instagram and 100+, Enterprise providers as Microsoft Office
-                  365, Google Apps, Azure, and more. You can also use any OAuth2
-                  Authorization Server.
-                </p>
-              </div>
-
-              <div class="col-md"></div>
-
-              <div class="col-md-5 mb-4">
-                <h6 class="mb-3">
-                  <a href="https://auth0.com/docs/multifactor-authentication">
-                    <i class="fas fa-link"></i> Enable Multifactor
-                    Authentication
-                  </a>
-                </h6>
-                <p>
-                  Add an extra layer of security by enabling Multi-factor
-                  Authentication, requiring your users to provide more than one
-                  piece of identifying information. Push notifications,
-                  authenticator apps, SMS, and DUO Security are supported.
-                </p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-5 mb-4">
-                <h6 class="mb-3">
-                  <a href="https://auth0.com/docs/anomaly-detection">
-                    <i class="fas fa-link"></i> Anomaly Detection
-                  </a>
-                </h6>
-                <p>
-                  Auth0 can detect anomalies and stop malicious attempts to
-                  access your application. Anomaly detection can alert you and
-                  your users of suspicious activity, as well as block further
-                  login attempts.
-                </p>
-              </div>
-
-              <div class="col-md"></div>
-
-              <div class="col-md-5 mb-4">
-                <h6 class="mb-3">
-                  <a href="https://auth0.com/docs/rules">
-                    <i class="fas fa-link"></i> Learn About Rules
-                  </a>
-                </h6>
-                <p>
-                  Rules are JavaScript functions that execute when a user
-                  authenticates to your application. They run once the
-                  authentication process is complete, and you can use them to
-                  customize and extend Auth0's capabilities.
-                </p>
-              </div>
+<!-- 追加注文アプリ -->
+<!-- Menu  -->
+      <section id="bicycle" class="wrapper">
+        <h2 class="section-title">Menu</h2>
+        <ul>
+          <li>
+            <img src="https://okta202220708.herokuapp.com/images/PizzaA.jpg" alt="PizzaA">
+            <h3 class="content-title">pizza A</h3>
+            <div class="item_textbox">
+            <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">2000</span></div>
+            <div class="item_btnarea">
+              <button class="item_cart_btn js_cart_btn" data-name="pizza A" data-price="2000"><a class="item_buy_btn" href="page/confirm.html">購入</a></button>
             </div>
           </div>
+          </li>
+          <li>
+            <img src="https://okta202220708.herokuapp.com/images/PizzaB.jpg" alt="PizzaB">
+            <h3 class="content-title">pizza B</h3>
+            <div class="item_textbox">
+            <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">3000</span></div>
+            <div class="item_btnarea">
+              <button class="item_cart_btn js_cart_btn" data-name="pizza B" data-price="3000"><a class="item_buy_btn" href="confirm.html">購入</a></button>
+            </div>
+          </div>
+          </li>
+          <li>
+            <img src="https://okta202220708.herokuapp.com/images/PizzaC.jpg" alt="PizzaC">
+            <h3 class="content-title">pizza C</h3>
+            <div class="item_textbox">
+            <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">2500</span></div>
+            <div class="item_btnarea">
+              <button class="item_cart_btn js_cart_btn" data-name="pizza C" data-price="2500"><a class="item_buy_btn" href="confirm.html">購入</a></button>
+            </div>
+          </div>
+          </li>
+        </ul>
+      </section>        </div>
+<!-- 追加注文アプリ -->
         </div>
 
         <div class="page" id="content-profile">
