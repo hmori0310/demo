@@ -182,7 +182,7 @@
             <div class="item_textbox">
             <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">2000</span></div>
             <div class="item_btnarea">
-              <button class="item_cart_btn js_cart_btn" data-name="pizza A" data-price="2000"><a class="item_buy_btn" a href="/order"><font color="#ffffff">購入</font></a></button>
+              <button class="item_cart_btn js_cart_btn" data-name="pizza A" data-price="2000"><a class="item_buy_btn" a href="/order">購入</a></button>
             </div>
           </div>
           </li>
@@ -192,7 +192,7 @@
             <div class="item_textbox">
             <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">3000</span></div>
             <div class="item_btnarea">
-              <button class="item_cart_btn js_cart_btn" data-name="pizza B" data-price="3000"><a class="item_buy_btn" href="/order"><font color="#ffffff">購入</font></a></button>
+              <button class="item_cart_btn js_cart_btn" data-name="pizza B" data-price="3000"><a class="item_buy_btn" href="confirm.html">購入</a></button>
             </div>
           </div>
           </li>
@@ -202,7 +202,7 @@
             <div class="item_textbox">
             <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">2500</span></div>
             <div class="item_btnarea">
-              <button class="item_cart_btn js_cart_btn" data-name="pizza C" data-price="2500"><a class="item_buy_btn" href="/order"><font color="#ffffff">購入</font></a></button>
+              <button class="item_cart_btn js_cart_btn" data-name="pizza C" data-price="2500"><a class="item_buy_btn" href="confirm.html">購入</a></button>
             </div>
           </div>
           </li>
@@ -210,61 +210,45 @@
       </section>        </div>
 <!-- Menu  -->
         </div>
-<!-- Profile  -->
+
         <div class="page" id="content-profile">
+          <div class="container">
             <div class="row align-items-center profile-header">
-                <div id="wrapper">
-                    <section id="bicycle" class="wrapper">
-                         <h2 class="section-title">ユーザ情報・購入履歴</h2><br>
-<!-- ユーザ情報 -->
-                          <img
-                            alt="User's profile picture"
-                              class="rounded-circle img-fluid profile-image mb-3 mb-md-0"
-                            />
-                 <div class="col-md">
-                    <h2 class="user-name"></h2>
-                     <p class="lead text-muted user-email"></p>
-<!-- ユーザ情報-->
-<!-- 購入履歴 -->
-                <div class="conteiner">
-                  <ul id="js_shopping_list" class="shopping_list">
-                    <li>
-              <h2>2022/07/13</h2>
-              <div >pizza A / ¥2000</div>
-                    </li>
-                    </ul>
-              <h4>2022/06/16</h4>
-                        pizza A / ¥2000<br>
-                        pizza B / ¥3000<br>
-                  <ul id="js_shopping_list" class="shopping_list">
-                    <li>
-              <h2>2022/01/12</h2>
-                        pizza A / ¥2000<br>
-                        pizza B / ¥3000<br>
-                    </li>
-                    </ul>
-<!-- 購入履歴 -->
-              </section>
+              <div class="col-md-2">
+                <img
+                  alt="User's profile picture"
+                  class="rounded-circle img-fluid profile-image mb-3 mb-md-0"
+                />
+              </div>
+              <div class="col-md">
+                <h2 class="user-name"></h2>
+                <p class="lead text-muted user-email"></p>
+              </div>
             </div>
+
+            <div class="row">
+              <pre class="rounded">
+                <code id="profile-data" class="json"></code></pre>
+            </div>
+          </div>
       </div>
-<!-- Profile  -->
 <!-- Order  -->
-  <div id="wrapper">
-      <div class="page" id="content-order">
+ <div id="wrapper">
+    <br>
       <section id="bicycle" class="wrapper">
-        <h2 class="section-title">購入確認</h2>
-        <div class="conteiner">
-          <h1>注文内容</h1>
-          <ul id="js_shopping_list" class="shopping_list">
-            <li>
-              <h2>pizza A</h2>
-              <div class="price">2000</div>
-            </li>
-          </ul>
-          <button id="js_confirm" class="item_buy_btn"><a href="/" class="nav-link route-link"><font color="#ffffff">購入</font></a>
-                </ul>
-      </section>
-     </div>
+    <h2 class="section-title">購入確認</h2>
+
+<div class="conteiner">
+      <h1>購入確認</h1>
+      <ul id="js_shopping_list" class="shopping_list">
+      </ul>
+      <div class="total">
+          <span class="yen_symbol">¥</span>
+          <span id="js_total"></span>
+      </div>
+          <button id="js_confirm" class="item_buy_btn"><a href="/" class="nav-link route-link"><font color="#ffffff">購入確定</font></a>
+              </ul>    </div>
+        </section>
 </div>
 
     </div>
