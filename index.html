@@ -2,7 +2,7 @@
 <html class="h-100">
   <head>
     <meta charset="UTF-8" />
-    <title>Pizza24</title>
+    <title>Pizza 24</title>
       <link rel="stylesheet" href="https://hmori0310.github.io/demo/css/style.css">
       <link rel="stylesheet" type="text/css" href="https://hmori0310.github.io/demo/css/main.css" />
       <link rel="stylesheet" type="text/css" href="https://hmori0310.github.io/demo/css/confirm.css" />
@@ -164,53 +164,51 @@
           </div>
         </nav>
       </div>
-
       <div id="main-content" class="container mt-5 flex-grow-1">
+<!-- Menu  -->
         <div id="content-home" class="page">
-<!-- Menu  -->
-       <main>
-            <div id="mainvisual">
-            <img src="https://okta202220708.herokuapp.com/images/pizzatop.jpg" alt=" TOP">             
-           </div>
-        </main>
+            <main>
+                <div id="mainvisual"><img src="https://okta202220708.herokuapp.com/images/pizzatop.jpg" alt=" TOP"></div>
+             </main>
           <section id="bicycle" class="wrapper">
-        <h2 class="section-title">Menu</h2>
-        <ul>
-          <li>
-            <img src="https://okta202220708.herokuapp.com/images/PizzaA.jpg" alt="PizzaA">
-            <h3 class="content-title">pizza A</h3>
-            <div class="item_textbox">
-            <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">2000</span></div>
-            <div class="item_btnarea">
-              <button class="item_cart_btn js_cart_btn" data-name="pizza A" data-price="2000"><a class="item_buy_btn" a href="/order">購入</a></button>
-            </div>
-          </div>
-          </li>
-          <li>
-            <img src="https://okta202220708.herokuapp.com/images/PizzaB.jpg" alt="PizzaB">
-            <h3 class="content-title">pizza B</h3>
-            <div class="item_textbox">
-            <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">3000</span></div>
-            <div class="item_btnarea">
-              <button class="item_cart_btn js_cart_btn" data-name="pizza B" data-price="3000"><a class="item_buy_btn" href="confirm.html">購入</a></button>
-            </div>
-          </div>
-          </li>
-          <li>
-            <img src="https://okta202220708.herokuapp.com/images/PizzaC.jpg" alt="PizzaC">
-            <h3 class="content-title">pizza C</h3>
-            <div class="item_textbox">
-            <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">2500</span></div>
-            <div class="item_btnarea">
-              <button class="item_cart_btn js_cart_btn" data-name="pizza C" data-price="2500"><a class="item_buy_btn" href="confirm.html">購入</a></button>
-            </div>
-          </div>
-          </li>
-        </ul>
-      </section>        </div>
-<!-- Menu  -->
+             <h2 class="section-title">Menu</h2>
+             <ul>
+                <li>
+                  <img src="https://okta202220708.herokuapp.com/images/PizzaA.jpg" alt="PizzaA">
+                  <h3 class="content-title">pizza A</h3>
+                    <div class="item_textbox">
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">2000</span></div>
+                        <div class="item_btnarea">
+                             <button class="item_cart_btn js_cart_btn" data-name="pizza A" data-price="2000"><a class="item_buy_btn" a href="/order">購入</a></button>
+                        </div>
+                    </div>
+                 </li>
+                <li>
+                    <img src="https://okta202220708.herokuapp.com/images/PizzaB.jpg" alt="PizzaB">
+                    <h3 class="content-title">pizza B</h3>
+                    <div class="item_textbox">
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">3000</span></div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="pizza B" data-price="3000"><a class="item_buy_btn" href="confirm.html">購入</a></button>
+                         </div>
+                    </div>
+              </li>
+              <li>
+                <img src="https://okta202220708.herokuapp.com/images/PizzaC.jpg" alt="PizzaC">
+                <h3 class="content-title">pizza C</h3>
+                <div class="item_textbox">
+                    <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">2500</span></div>
+                    <div class="item_btnarea">
+                        <button class="item_cart_btn js_cart_btn" data-name="pizza C" data-price="2500"><a class="item_buy_btn" href="confirm.html">購入</a></button>
+                    </div>
+                 </div>
+                </li>
+             </ul>
+         </section> 
         </div>
-<div class="page" id="content-order">
+<!-- Menu  -->
+<!-- Order  -->
+        <div class="page" id="content-order">
           <div class="container">
                 <div id="wrapper">
                       <section id="bicycle" class="wrapper">
@@ -226,93 +224,72 @@
                         </div>
                      </section>
                  </div>
-              </div>
             </div>
+        </div>
+<!-- Order  -->
+<!-- Profile  -->
         <div class="page" id="content-profile">
           <div class="container">
             <div class="row align-items-center profile-header">
                 <div id="wrapper">
-             <section id="bicycle" class="wrapper">
-                <center><h2 class="section-title">ユーザ情報・購入履歴</h2>
+                    <section id="bicycle" class="wrapper">
+                        <center><h2 class="section-title">ユーザ情報・購入履歴</h2>
 <!-- ユーザ情報 -->
-              <div class="col-md-2">
-                <img
-                  alt="User's profile picture"
-                  class="rounded-circle img-fluid profile-image mb-3 mb-md-0"
-                />
-              </div>
-              <div class="col-md">
-                    <h2 class="user-name"></h2>
-                     <p class="lead text-muted user-email"></p>
-              </div>
-              </center>
-            </section>
+                            <div class="col-md-2">
+                             <img
+                             alt="User's profile picture"
+                             class="rounded-circle img-fluid profile-image mb-3 mb-md-0"
+                             />
+                           </div>
+                          <div class="col-md">
+                               <h2 class="user-name"></h2>
+                                <p class="lead text-muted user-email"></p>
+                           </div>
+                      </center>
+                 </section>
 <!-- ユーザ情報 -->
  <!-- 購入履歴 -->
                 <div id="wrapper">
                 <section id="bicycle" class="wrapper">
-                <div class="conteiner">
-                    <h1>購入履歴</h1>
-                    <ul id="js_shopping_list" class="shopping_list">
-                    <li>
-                        <h2>2022/07/13</h2>
-                        <div >pizza A / ¥2000</div>
-                    </li>
-                    </ul>
-                    <h4>2022/06/16</h4>
-                        pizza A / ¥2000<br>
-                        pizza B / ¥3000<br>
-                    <ul id="js_shopping_list" class="shopping_list">
-                    <li>
-                        <h2>2022/01/12</h2>
-                        pizza A / ¥2000<br>
-                        pizza B / ¥3000<br>
-                    </li>
-                    </ul>
+                    <div class="conteiner">
+                       <h1>購入履歴</h1>
+                       <ul id="js_shopping_list" class="shopping_list">
+                       <li>
+                           <h2>2022/07/13</h2>
+                           <div >pizza A / ¥2000</div>
+                       </li>
+                       </ul>
+                       <h4>2022/06/16</h4>
+                            pizza A / ¥2000<br>
+                            pizza B / ¥3000<br>
+                       <ul id="js_shopping_list" class="shopping_list">
+                            <li>
+                                <h2>2022/01/12</h2>
+                                pizza A / ¥2000<br>
+                                pizza B / ¥3000<br>
+                            </li>
+                        </ul>
 <!-- 購入履歴 -->
-                 </div>
+                    </div>
                  </section>
                 </div>
-            <div class="row">
-              <pre class="rounded">
-                <code id="profile-data" class="json"></code></pre>
-            </div>
-          </div>
-          </div>
+<!-- log -->
+                <div class="row">
+                     <pre class="rounded">
+                     <code id="profile-data" class="json"></code></pre>
+                </div>
+<!-- log -->
+                </div>
+                 </div>
       </div>
-          </div>
-      </div>
-      </div>
-<!-- Order <div id="wrapper">
-    <br>
-      <section id="bicycle" class="wrapper">
-    <h2 class="section-title">購入確認</h2>
 
-<div class="conteiner">
-      <h1>購入確認</h1>
-      <ul id="js_shopping_list" class="shopping_list">
-      </ul>
-      <div class="total">
-          <span class="yen_symbol">¥</span>
-          <span id="js_total"></span>
-      </div>
-          <button id="js_confirm" class="item_buy_btn"><a href="/" class="nav-link route-link"><font color="#ffffff">購入確定</font></a>
-              </ul>    </div>
-        </section>
-</div>  -->
-    </div>
-  </div>
-<!-- Order  -->
-</div>
-    </div>
-
+<!-- script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
     <script src="https://hmori0310.github.io/demo/js/ui.js"></script>
     <script src="https://hmori0310.github.io/demo/js/script.js"></script>
-
     <script src="js/app.js"></script>
   </body>
 </html>
